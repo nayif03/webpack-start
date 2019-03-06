@@ -1,0 +1,28 @@
+{
+  "name": "coming-soon",
+  "version": "1.0.0",
+  "description": "Comingsoon without Webpack ",
+  "main": "index.html",
+  "scripts": {
+    "dev":"webpack --mode development --watch",
+    "build":"webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FBW-12/coming-soon-no-webpack.git"
+  },
+  "author": "Leandro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FBW-12/coming-soon-no-webpack/issues"
+  },
+  "homepage": "https://github.com/FBW-12/coming-soon-no-webpack#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
