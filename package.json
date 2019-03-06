@@ -4,20 +4,20 @@
   "description": "Comingsoon without Webpack ",
   "main": "index.html",
   "scripts": {
-    "dev":"webpack --mode development --watch",
+    "dev":"webpack --mode development",
     "build":"webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FBW-12/coming-soon-no-webpack.git"
+    "url": "git+https://github.com/nayif03/webpack-start.git"
   },
-  "author": "Leandro",
+  "author": "Nayif",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FBW-12/coming-soon-no-webpack/issues"
+    "url": "https://github.com/nayif03/webpack-start/issues"
   },
-  "homepage": "https://github.com/FBW-12/coming-soon-no-webpack#readme",
+  "homepage": "https://github.com/nayif03/webpack-start#readme",
   "dependencies": {
     "moment": "^2.24.0"
   },
